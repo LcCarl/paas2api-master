@@ -1,0 +1,35 @@
+2023-02-26 17:53:00,722-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-26 17:53:00,723-INFO-日志信息:*****现在测试的内容是：权限-1模块，第1行，正常获取token*****
+2023-02-26 17:53:00,723-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-26 17:53:00,723-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-26 17:53:00,724-INFO-日志信息:——————http请求方式：post————————
+2023-02-26 17:53:01,396-INFO-日志信息:——————http耗时：0.42879————————
+2023-02-26 17:53:01,397-INFO-日志信息:——————完成http请求————————
+2023-02-26 17:53:01,397-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"f4f77848-802a-4a65-9aba-4597dadb701b","token_type":"bearer","refresh_token":"32051f7f-8ae3-464d-9834-d81cdfde3515","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-26 17:53:01,940-INFO-日志信息:结果已写回
+2023-02-26 17:53:01,940-INFO-日志信息:*****正常获取token测试结束了*****
+2023-02-26 17:53:01,941-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-26 17:53:01,941-INFO-日志信息:*****现在测试的内容是：权限-2模块，第2行，新增域*****
+2023-02-26 17:53:01,941-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/auth-service/mgnt/rent/add————————
+2023-02-26 17:53:01,942-INFO-日志信息:——————http请求数据：{'rentName': '1677405180137', 'pid': '1'}————————
+2023-02-26 17:53:01,942-INFO-日志信息:——————http请求方式：post————————
+2023-02-26 17:53:07,175-INFO-日志信息:——————http耗时：5.076402————————
+2023-02-26 17:53:07,175-INFO-日志信息:——————完成http请求————————
+2023-02-26 17:53:07,175-INFO-日志信息:——————http请求结果：{"code":400,"msg":"","data":null}————————
+2023-02-26 17:53:07,176-ERROR-日志信息:测试结果报错为：200 != 400
+2023-02-26 17:53:07,677-INFO-日志信息:结果已写回
+2023-02-26 17:53:07,690-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-26 17:53:07,691-INFO-日志信息:*****现在测试的内容是：权限-3模块，第3行，新增角色*****
+2023-02-26 17:53:07,691-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/auth-service/mgnt/role/add————————
+2023-02-26 17:53:07,692-INFO-日志信息:——————http请求数据：{'rentId': 'None', 'roleName': '1677405180428'}————————
+2023-02-26 17:53:07,692-INFO-日志信息:——————http请求方式：post————————
+2023-02-26 17:53:12,899-INFO-日志信息:——————http耗时：5.055828————————
+2023-02-26 17:53:12,899-INFO-日志信息:——————完成http请求————————
+2023-02-26 17:53:12,900-INFO-日志信息:——————http请求结果：{"code":400,"msg":"JSON parse error: Cannot deserialize value of type `java.lang.Long` from String \"None\": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Long` from String \"None\": not a valid Long value\n at [Source: (PushbackInputStream); line: 1, column: 12] (through reference chain: com.hundunyun.venus.auth.role.model.dto.RoleAddDTO[\"rentId\"])","data":null}————————
+2023-02-26 17:53:12,900-ERROR-日志信息:测试结果报错为：200 != 400
+2023-02-26 17:53:13,391-INFO-日志信息:结果已写回
+2023-02-26 17:53:13,392-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-26 17:53:13,393-INFO-日志信息:*****现在测试的内容是：权限-4模块，第4行，新增用户*****
+2023-02-26 17:53:13,393-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/auth-service/mgnt/user/add————————
+2023-02-26 17:53:13,393-INFO-日志信息:——————http请求数据：{'email': '1677405180650@qq.com', 'enabled': 1, 'mobile': '13005180833', 'password': 'Hundunyun@123', 'realName': '极简新增', 'rentId': 'None', 'userAccount': '1677405180610'}————————
+2023-02-26 17:53:13,393-INFO-日志信息:——————http请求方式：post————————

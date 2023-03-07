@@ -1,0 +1,142 @@
+2023-02-27 17:27:26,419-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:27:26,420-INFO-日志信息:*****现在测试的内容是：权限-1模块，第1行，正常获取token*****
+2023-02-27 17:27:26,420-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:27:26,420-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:27:26,421-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:27:27,304-INFO-日志信息:——————http耗时：0.238441————————
+2023-02-27 17:27:27,304-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:27:27,305-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"53f99a0d-62a8-4d2b-a391-f3288dcc120f","token_type":"bearer","refresh_token":"bc392cef-ecdb-4f7c-8e3d-ef746f0ff182","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-27 17:27:28,999-INFO-日志信息:结果已写回
+2023-02-27 17:27:29,000-INFO-日志信息:*****正常获取token测试结束了*****
+2023-02-27 17:27:29,000-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:27:29,001-INFO-日志信息:*****现在测试的内容是：权限-2模块，第2行，新增域*****
+2023-02-27 17:27:29,002-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/auth-service/mgnt/rent/add————————
+2023-02-27 17:27:29,002-INFO-日志信息:——————http请求数据：{'rentName': '1677490046902', 'pid': '1'}————————
+2023-02-27 17:27:29,003-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:29:41,568-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:29:41,568-INFO-日志信息:*****现在测试的内容是：权限-1模块，第1行，正常获取token*****
+2023-02-27 17:29:41,569-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:29:41,569-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:29:41,569-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:29:41,987-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:29:41,987-INFO-日志信息:*****现在测试的内容是：权限-2模块，第2行，新增域*****
+2023-02-27 17:29:41,988-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/auth-service/mgnt/rent/add————————
+2023-02-27 17:29:41,988-INFO-日志信息:——————http请求数据：{'rentName': '1677490181944', 'pid': '1'}————————
+2023-02-27 17:29:41,988-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:38:15,851-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:38:15,852-INFO-日志信息:*****现在测试的内容是：权限-1模块，第1行，正常获取token*****
+2023-02-27 17:38:15,853-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:38:15,853-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:38:15,853-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:38:16,602-INFO-日志信息:——————http耗时：0.163353————————
+2023-02-27 17:38:16,602-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:38:16,603-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"7fb15f14-78b1-44d7-9b48-ac7d7bf9d6fb","token_type":"bearer","refresh_token":"f17b5397-6de5-454f-8e89-4b106575965d","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-27 17:49:58,697-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:49:58,698-INFO-日志信息:*****现在测试的内容是：用户-1模块，第1行，正常获取token*****
+2023-02-27 17:49:58,698-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:49:58,699-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:49:58,699-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:49:59,029-INFO-日志信息:——————http耗时：0.170984————————
+2023-02-27 17:49:59,029-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:49:59,030-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"a7d19832-5e7b-4d61-9ceb-2a8fa68acada","token_type":"bearer","refresh_token":"bf602d5e-51ac-4731-a5a6-3d810a50abb4","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-27 17:49:59,540-INFO-日志信息:结果已写回
+2023-02-27 17:49:59,540-INFO-日志信息:*****正常获取token测试结束了*****
+2023-02-27 17:49:59,541-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:49:59,542-INFO-日志信息:*****现在测试的内容是：用户-2模块，第2行，新增用户*****
+2023-02-27 17:49:59,542-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/add————————
+2023-02-27 17:49:59,542-INFO-日志信息:——————http请求数据：{'birthday': '', 'email': '1677491398806@qq.com', 'enabled': -1, 'jobNum': '', 'mobile': '13091398707', 'password': 'H12kj3l-', 'profilePhoto': '', 'pwdPeriod': '', 'realName': 'None', 'remark': '', 'rentId': 1, 'roleIds': [], 'userAccount': '1677491398894'}————————
+2023-02-27 17:49:59,542-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:50:04,721-INFO-日志信息:——————http耗时：5.029569————————
+2023-02-27 17:50:04,722-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:50:04,722-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/add","data":null}————————
+2023-02-27 17:50:04,722-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:50:05,235-INFO-日志信息:结果已写回
+2023-02-27 17:50:05,236-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:50:05,237-INFO-日志信息:*****现在测试的内容是：用户-3模块，第3行，查询用户*****
+2023-02-27 17:50:05,238-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName
+————————
+2023-02-27 17:50:05,238-INFO-日志信息:——————http请求数据：None————————
+2023-02-27 17:50:05,238-INFO-日志信息:——————http请求方式：get————————
+2023-02-27 17:50:10,478-INFO-日志信息:——————http耗时：5.051949————————
+2023-02-27 17:50:10,479-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:50:10,479-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName%0A","data":null}————————
+2023-02-27 17:50:10,479-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:50:11,165-INFO-日志信息:结果已写回
+2023-02-27 17:54:08,908-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:54:08,909-INFO-日志信息:*****现在测试的内容是：用户-1模块，第1行，正常获取token*****
+2023-02-27 17:54:08,909-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:54:08,909-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:54:08,910-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:54:09,241-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:54:09,242-INFO-日志信息:*****现在测试的内容是：用户-2模块，第2行，新增用户*****
+2023-02-27 17:54:09,242-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/add————————
+2023-02-27 17:54:09,243-INFO-日志信息:——————http请求数据：{'birthday': '', 'email': '1677491648783@qq.com', 'enabled': -1, 'jobNum': '', 'mobile': '13091648429', 'password': 'H12kj3l-', 'profilePhoto': '', 'pwdPeriod': '', 'realName': 'None', 'remark': '', 'rentId': 1, 'roleIds': [], 'userAccount': '1677491648319'}————————
+2023-02-27 17:54:09,243-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:54:14,336-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:54:14,336-INFO-日志信息:*****现在测试的内容是：用户-3模块，第3行，查询用户*****
+2023-02-27 17:54:14,337-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName
+————————
+2023-02-27 17:54:14,337-INFO-日志信息:——————http请求数据：None————————
+2023-02-27 17:54:14,337-INFO-日志信息:——————http请求方式：get————————
+2023-02-27 17:56:04,357-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:56:04,358-INFO-日志信息:*****现在测试的内容是：用户-1模块，第1行，正常获取token*****
+2023-02-27 17:56:04,358-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:56:04,359-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:56:04,359-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:56:04,722-INFO-日志信息:——————http耗时：0.210464————————
+2023-02-27 17:56:04,723-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:56:04,723-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"8e9364ca-9dc0-42f6-8568-589710344f32","token_type":"bearer","refresh_token":"b185b433-1993-4c93-bf99-3bc2e84cdf45","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-27 17:56:05,234-INFO-日志信息:结果已写回
+2023-02-27 17:56:05,234-INFO-日志信息:*****正常获取token测试结束了*****
+2023-02-27 17:56:05,235-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:56:05,235-INFO-日志信息:*****现在测试的内容是：用户-2模块，第2行，新增用户*****
+2023-02-27 17:56:05,236-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/add————————
+2023-02-27 17:56:05,236-INFO-日志信息:——————http请求数据：{'birthday': '', 'email': '1677491764312@qq.com', 'enabled': -1, 'jobNum': '', 'mobile': '13091764288', 'password': 'H12kj3l-', 'profilePhoto': '', 'pwdPeriod': '', 'realName': 'None', 'remark': '', 'rentId': 1, 'roleIds': [], 'userAccount': '1677491764184'}————————
+2023-02-27 17:56:05,236-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:56:10,520-INFO-日志信息:——————http耗时：5.10709————————
+2023-02-27 17:56:10,521-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:56:10,522-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/add","data":null}————————
+2023-02-27 17:56:10,523-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:56:11,125-INFO-日志信息:结果已写回
+2023-02-27 17:56:11,126-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:56:11,127-INFO-日志信息:*****现在测试的内容是：用户-3模块，第3行，查询用户*****
+2023-02-27 17:56:11,127-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName
+————————
+2023-02-27 17:56:11,128-INFO-日志信息:——————http请求数据：None————————
+2023-02-27 17:56:11,128-INFO-日志信息:——————http请求方式：get————————
+2023-02-27 17:56:16,306-INFO-日志信息:——————http耗时：5.027771————————
+2023-02-27 17:56:16,307-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:56:16,307-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName%0A","data":null}————————
+2023-02-27 17:56:16,308-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:56:16,794-INFO-日志信息:结果已写回
+2023-02-27 17:57:28,020-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:57:28,020-INFO-日志信息:*****现在测试的内容是：用户-1模块，第1行，正常获取token*****
+2023-02-27 17:57:28,020-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com/ac/oauth/token————————
+2023-02-27 17:57:28,021-INFO-日志信息:——————http请求数据：{'username': 'APItest', 'password': 'Hundunyun@123', 'grant_type': 'password', 'client_id': 'paasweb', 'client_secret': 'paasweb'}————————
+2023-02-27 17:57:28,021-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:57:28,419-INFO-日志信息:——————http耗时：0.225648————————
+2023-02-27 17:57:28,420-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:57:28,420-INFO-日志信息:——————http请求结果：{"code":200,"msg":"success","data":{"access_token":"f95bbfee-e0f0-4a6b-9602-bdf4a725cdb9","token_type":"bearer","refresh_token":"4b8ece98-25de-4ec9-8466-214d0a7309b9","expires_in":3599,"scope":"all","user_type":"SUPER_USER","user_id":"2014","org_id":"1","platform":null,"username":"APItest"}}————————
+2023-02-27 17:57:28,956-INFO-日志信息:结果已写回
+2023-02-27 17:57:28,957-INFO-日志信息:*****正常获取token测试结束了*****
+2023-02-27 17:57:28,958-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:57:28,958-INFO-日志信息:*****现在测试的内容是：用户-2模块，第2行，新增用户*****
+2023-02-27 17:57:28,959-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/add————————
+2023-02-27 17:57:28,960-INFO-日志信息:——————http请求数据：{'birthday': '', 'email': '1677491848291@qq.com', 'enabled': -1, 'jobNum': '', 'mobile': '13091848853', 'password': 'H12kj3l-', 'profilePhoto': '', 'pwdPeriod': '', 'realName': 'None', 'remark': '', 'rentId': 1, 'roleIds': [], 'userAccount': '1677491848812'}————————
+2023-02-27 17:57:28,961-INFO-日志信息:——————http请求方式：post————————
+2023-02-27 17:57:34,152-INFO-日志信息:——————http耗时：5.029996————————
+2023-02-27 17:57:34,153-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:57:34,153-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/add","data":null}————————
+2023-02-27 17:57:34,153-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:57:34,733-INFO-日志信息:结果已写回
+2023-02-27 17:57:34,735-INFO-日志信息:测试用例表格为：C:\Users\刘聪\Desktop\paas2api-master\data_excel\new_data_excel\test_case_authService.xlsx
+2023-02-27 17:57:34,736-INFO-日志信息:*****现在测试的内容是：用户-3模块，第3行，查询用户*****
+2023-02-27 17:57:34,736-INFO-日志信息:——————开始http请求：http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName
+————————
+2023-02-27 17:57:34,736-INFO-日志信息:——————http请求数据：None————————
+2023-02-27 17:57:34,737-INFO-日志信息:——————http请求方式：get————————
+2023-02-27 17:57:40,005-INFO-日志信息:——————http耗时：5.116625————————
+2023-02-27 17:57:40,006-INFO-日志信息:——————完成http请求————————
+2023-02-27 17:57:40,007-INFO-日志信息:——————http请求结果：{"code":404,"msg":"http://test.venus.wxhundun.com//auth-service/mgnt/user/condition/queryUserAccountName%0A","data":null}————————
+2023-02-27 17:57:40,007-ERROR-日志信息:测试结果报错为：200 != 404
+2023-02-27 17:57:40,481-INFO-日志信息:结果已写回
